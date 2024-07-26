@@ -11,7 +11,7 @@ interface SiteConfig {
 export const siteConfig: SiteConfig = {
 	author: 'Vladi-KZ', // Site author
 	title: 'Doctora Disney', // Site title
-	description: 'Vida bien vivida y envejecimiento saludable', // Description to display in the meta tags
+	description: 'Salud al día.', // Description to display in the meta tags
 	lang: 'es',
 	ogLocale: 'es',
 	shareMessage: 'Share this post', // Message to share a post on social media
