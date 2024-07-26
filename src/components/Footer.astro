@@ -1,7 +1,21 @@
 ---
 const today = new Date()
+import GmailIcon from './icons/GmailIcon.astro'
+import TelegramIcon from './icons/TelegramIcon.astro'
+import WhatsappIcon from './icons/WhatsappIcon.astro'
 ---
 
-<footer class='flex justify-center items-center w-full px-16 h-28 border-t-2'>
-	&copy; {today.getFullYear()} Your Name. All rights reserved.
+<footer class='flex flex-col justify-center gap-2 items-center w-full px-16 h-28 border-t-2'>
+	&copy; {today.getFullYear()} | Dra. Disney
+	<div class='flex gap-2 items-center'>
+		Contáctame: <a href='mailto:dradisneyfg.gmail.com'>
+			<GmailIcon />
+		</a>
+		<a href='https://api.whatsapp.com/send?phone=+584164060494'>
+			<WhatsappIcon />
+		</a>
+		<a href='https://t.me/dradisney'>
+			<TelegramIcon />
+		</a>
+	</div>
 </footer>
